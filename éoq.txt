@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+ 
+public class inicial : MonoBehaviour {
+ 
+    public void ChamaCena1A () {
+       UnityEngine.SceneManagement.SceneManager.LoadScene("inicial");
+    }
+    public void Sair () {
+       Application.Quit();
+    }
+}
